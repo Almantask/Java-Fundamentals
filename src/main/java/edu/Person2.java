@@ -3,27 +3,23 @@ package edu;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Person {
+public class Person2 {
     public static int CreatedPeopleCount = 0;
 
-    public String Name;
+    public static String Name = "Tom";
     public LocalDate Birthday;
     public float Weight;
     public float Height;
 
     // Newborn
-    public Person(String name, float weight, float height){
-        if(name == null || name.isEmpty()){
-            // ...
-        }
-        Name = name;
+    public Person2(float weight, float height){
         Birthday = LocalDate.now();
         Weight = weight;
         Height = height;
     }
 
     // Already existing person
-    public Person(String name, float weight, float height, LocalDate birthday){
+    public Person2(String name, float weight, float height, LocalDate birthday){
         Name = name;
         Weight = weight;
         Height = height;

@@ -15,5 +15,17 @@ public class DemoClass {
         System.out.println("Tom's age: " + tom.getAge());
         //  26
         System.out.println("Bill's age: " + bill.getAge());
+
+        // ------
+        Person2 tom1 = new Person2(1, 1);
+        Person2 tom2 = new Person2(1, 1);
+        Person2 tom3 = new Person2("James", 1, 1, LocalDate.now());
+
+        // James ++++++
+        // Tom   ++++++++
+        System.out.println("tom1 = " + Person2.Name);
+        // James ++++++
+        // Tom   ++++++++
+        System.out.println("tom2 = " + tom2.Name);
     }
 }
