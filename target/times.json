@@ -1,0 +1,3375 @@
+{
+  "offset" : {
+    "totalSeconds" : 10800,
+    "id" : "+03:00",
+    "rules" : {
+      "fixedOffset" : true,
+      "transitions" : [ ],
+      "transitionRules" : [ ]
+    }
+  },
+  "zone" : {
+    "id" : "Europe/Vilnius",
+    "rules" : {
+      "fixedOffset" : false,
+      "transitions" : [ {
+        "offsetBefore" : {
+          "totalSeconds" : 6076,
+          "id" : "+01:41:16",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 5040,
+          "id" : "+01:24",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -1036,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1880,
+          "monthValue" : 1,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 1,
+          "month" : "JANUARY",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1879,
+          "monthValue" : 12,
+          "dayOfMonth" : 31,
+          "hour" : 23,
+          "minute" : 42,
+          "second" : 44,
+          "dayOfWeek" : "WEDNESDAY",
+          "dayOfYear" : 365,
+          "month" : "DECEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -2840146876
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 5040,
+          "id" : "+01:24",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 5736,
+          "id" : "+01:35:36",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 696,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1917,
+          "monthValue" : 1,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 1,
+          "month" : "JANUARY",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1917,
+          "monthValue" : 1,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 11,
+          "second" : 36,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 1,
+          "month" : "JANUARY",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -1672536240
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 5736,
+          "id" : "+01:35:36",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -2136,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1919,
+          "monthValue" : 10,
+          "dayOfMonth" : 10,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 283,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1919,
+          "monthValue" : 10,
+          "dayOfMonth" : 9,
+          "hour" : 23,
+          "minute" : 24,
+          "second" : 24,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 282,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -1585100136
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1920,
+          "monthValue" : 7,
+          "dayOfMonth" : 12,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 194,
+          "month" : "JULY",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1920,
+          "monthValue" : 7,
+          "dayOfMonth" : 12,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 194,
+          "month" : "JULY",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -1561251600
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1920,
+          "monthValue" : 10,
+          "dayOfMonth" : 9,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SATURDAY",
+          "dayOfYear" : 283,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1920,
+          "monthValue" : 10,
+          "dayOfMonth" : 8,
+          "hour" : 23,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 282,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -1553565600
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 7200,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1940,
+          "monthValue" : 8,
+          "dayOfMonth" : 3,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SATURDAY",
+          "dayOfYear" : 216,
+          "month" : "AUGUST",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1940,
+          "monthValue" : 8,
+          "dayOfMonth" : 3,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SATURDAY",
+          "dayOfYear" : 216,
+          "month" : "AUGUST",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -928198800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1941,
+          "monthValue" : 6,
+          "dayOfMonth" : 24,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "TUESDAY",
+          "dayOfYear" : 175,
+          "month" : "JUNE",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1941,
+          "monthValue" : 6,
+          "dayOfMonth" : 23,
+          "hour" : 23,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 174,
+          "month" : "JUNE",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -900126000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1942,
+          "monthValue" : 11,
+          "dayOfMonth" : 2,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 306,
+          "month" : "NOVEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1942,
+          "monthValue" : 11,
+          "dayOfMonth" : 2,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 306,
+          "month" : "NOVEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -857257200
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1943,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1943,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -844556400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1943,
+          "monthValue" : 10,
+          "dayOfMonth" : 4,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 277,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1943,
+          "monthValue" : 10,
+          "dayOfMonth" : 4,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 277,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -828226800
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1944,
+          "monthValue" : 4,
+          "dayOfMonth" : 3,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 94,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1944,
+          "monthValue" : 4,
+          "dayOfMonth" : 3,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "MONDAY",
+          "dayOfYear" : 94,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -812502000
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1944,
+          "monthValue" : 8,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "TUESDAY",
+          "dayOfYear" : 214,
+          "month" : "AUGUST",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1944,
+          "monthValue" : 8,
+          "dayOfMonth" : 1,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "TUESDAY",
+          "dayOfYear" : 214,
+          "month" : "AUGUST",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : -802144800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1981,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "WEDNESDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1981,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "WEDNESDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 354920400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1981,
+          "monthValue" : 10,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 274,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1981,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 23,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "WEDNESDAY",
+          "dayOfYear" : 273,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 370728000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1982,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1982,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 386456400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1982,
+          "monthValue" : 10,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 274,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1982,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 23,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "THURSDAY",
+          "dayOfYear" : 273,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 402264000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1983,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1983,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 91,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 417992400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1983,
+          "monthValue" : 10,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SATURDAY",
+          "dayOfYear" : 274,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1983,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 23,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "FRIDAY",
+          "dayOfYear" : 273,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 433800000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1984,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 0,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 92,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1984,
+          "monthValue" : 4,
+          "dayOfMonth" : 1,
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 92,
+          "month" : "APRIL",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 449614800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1984,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 274,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1984,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 274,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 465346800
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1985,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 90,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1985,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 90,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 481071600
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1985,
+          "monthValue" : 9,
+          "dayOfMonth" : 29,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 272,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1985,
+          "monthValue" : 9,
+          "dayOfMonth" : 29,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 272,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 496796400
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1986,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1986,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 512521200
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1986,
+          "monthValue" : 9,
+          "dayOfMonth" : 28,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 271,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1986,
+          "monthValue" : 9,
+          "dayOfMonth" : 28,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 271,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 528246000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1987,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1987,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 543970800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1987,
+          "monthValue" : 9,
+          "dayOfMonth" : 27,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 270,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1987,
+          "monthValue" : 9,
+          "dayOfMonth" : 27,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 270,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 559695600
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1988,
+          "monthValue" : 3,
+          "dayOfMonth" : 27,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1988,
+          "monthValue" : 3,
+          "dayOfMonth" : 27,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 575420400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 14400,
+          "id" : "+04:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1988,
+          "monthValue" : 9,
+          "dayOfMonth" : 25,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 269,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1988,
+          "monthValue" : 9,
+          "dayOfMonth" : 25,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 269,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 591145200
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1989,
+          "monthValue" : 9,
+          "dayOfMonth" : 24,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 267,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1989,
+          "monthValue" : 9,
+          "dayOfMonth" : 24,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 267,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 622598400
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1990,
+          "monthValue" : 3,
+          "dayOfMonth" : 25,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 84,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1990,
+          "monthValue" : 3,
+          "dayOfMonth" : 25,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 84,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 638323200
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1990,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 273,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1990,
+          "monthValue" : 9,
+          "dayOfMonth" : 30,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 273,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 654652800
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1991,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 90,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1991,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 90,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 670377600
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1991,
+          "monthValue" : 9,
+          "dayOfMonth" : 29,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 272,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1991,
+          "monthValue" : 9,
+          "dayOfMonth" : 29,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 272,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 686102400
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1992,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1992,
+          "monthValue" : 3,
+          "dayOfMonth" : 29,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 701827200
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1992,
+          "monthValue" : 9,
+          "dayOfMonth" : 27,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 271,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1992,
+          "monthValue" : 9,
+          "dayOfMonth" : 27,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 271,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 717552000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1993,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1993,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 733276800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1993,
+          "monthValue" : 9,
+          "dayOfMonth" : 26,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 269,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1993,
+          "monthValue" : 9,
+          "dayOfMonth" : 26,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 269,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 749001600
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1994,
+          "monthValue" : 3,
+          "dayOfMonth" : 27,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 86,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1994,
+          "monthValue" : 3,
+          "dayOfMonth" : 27,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 86,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 764726400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1994,
+          "monthValue" : 9,
+          "dayOfMonth" : 25,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 268,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1994,
+          "monthValue" : 9,
+          "dayOfMonth" : 25,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 268,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 780451200
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1995,
+          "monthValue" : 3,
+          "dayOfMonth" : 26,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 85,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1995,
+          "monthValue" : 3,
+          "dayOfMonth" : 26,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 85,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 796176000
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1995,
+          "monthValue" : 9,
+          "dayOfMonth" : 24,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 267,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1995,
+          "monthValue" : 9,
+          "dayOfMonth" : 24,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 267,
+          "month" : "SEPTEMBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 811900800
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1996,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 91,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1996,
+          "monthValue" : 3,
+          "dayOfMonth" : 31,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 91,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 828230400
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1996,
+          "monthValue" : 10,
+          "dayOfMonth" : 27,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 301,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1996,
+          "monthValue" : 10,
+          "dayOfMonth" : 27,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 301,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 846374400
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1997,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1997,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 859680000
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1997,
+          "monthValue" : 10,
+          "dayOfMonth" : 26,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 299,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1997,
+          "monthValue" : 10,
+          "dayOfMonth" : 26,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 299,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 877824000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1998,
+          "monthValue" : 10,
+          "dayOfMonth" : 25,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 298,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1998,
+          "monthValue" : 10,
+          "dayOfMonth" : 25,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 298,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 909277200
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 3600,
+          "id" : "+01:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 1999,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 2,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 1999,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 87,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 922582800
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 2003,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 2003,
+          "monthValue" : 3,
+          "dayOfMonth" : 30,
+          "hour" : 4,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 89,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 1048986000
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 2003,
+          "monthValue" : 10,
+          "dayOfMonth" : 26,
+          "hour" : 4,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 299,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 2003,
+          "monthValue" : 10,
+          "dayOfMonth" : 26,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 299,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 1067130000
+        },
+        "overlap" : true
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : 3600,
+          "nano" : 0,
+          "negative" : false,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : true,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 2004,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 2004,
+          "monthValue" : 3,
+          "dayOfMonth" : 28,
+          "hour" : 4,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 88,
+          "month" : "MARCH",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 1080435600
+        },
+        "overlap" : false
+      }, {
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "duration" : {
+          "seconds" : -3600,
+          "nano" : 0,
+          "negative" : true,
+          "zero" : false,
+          "units" : [ "SECONDS", "NANOS" ]
+        },
+        "gap" : false,
+        "dateTimeBefore" : {
+          "nano" : 0,
+          "year" : 2004,
+          "monthValue" : 10,
+          "dayOfMonth" : 31,
+          "hour" : 4,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 305,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "dateTimeAfter" : {
+          "nano" : 0,
+          "year" : 2004,
+          "monthValue" : 10,
+          "dayOfMonth" : 31,
+          "hour" : 3,
+          "minute" : 0,
+          "second" : 0,
+          "dayOfWeek" : "SUNDAY",
+          "dayOfYear" : 305,
+          "month" : "OCTOBER",
+          "chronology" : {
+            "id" : "ISO",
+            "calendarType" : "iso8601"
+          }
+        },
+        "instant" : {
+          "nano" : 0,
+          "epochSecond" : 1099184400
+        },
+        "overlap" : true
+      } ],
+      "transitionRules" : [ {
+        "month" : "MARCH",
+        "timeDefinition" : "UTC",
+        "standardOffset" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetBefore" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "dayOfWeek" : "SUNDAY",
+        "dayOfMonthIndicator" : 25,
+        "localTime" : {
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "nano" : 0
+        },
+        "midnightEndOfDay" : false
+      }, {
+        "month" : "OCTOBER",
+        "timeDefinition" : "UTC",
+        "standardOffset" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetBefore" : {
+          "totalSeconds" : 10800,
+          "id" : "+03:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "offsetAfter" : {
+          "totalSeconds" : 7200,
+          "id" : "+02:00",
+          "rules" : {
+            "fixedOffset" : true,
+            "transitions" : [ ],
+            "transitionRules" : [ ]
+          }
+        },
+        "dayOfWeek" : "SUNDAY",
+        "dayOfMonthIndicator" : 25,
+        "localTime" : {
+          "hour" : 1,
+          "minute" : 0,
+          "second" : 0,
+          "nano" : 0
+        },
+        "midnightEndOfDay" : false
+      } ]
+    }
+  },
+  "nano" : 293517700,
+  "year" : 2020,
+  "monthValue" : 10,
+  "dayOfMonth" : 10,
+  "hour" : 1,
+  "minute" : 12,
+  "second" : 10,
+  "dayOfWeek" : "SATURDAY",
+  "dayOfYear" : 284,
+  "month" : "OCTOBER",
+  "chronology" : {
+    "id" : "ISO",
+    "calendarType" : "iso8601"
+  }
+}
