@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>LearningJava</groupId>
-    <artifactId>Java_Fundamentals</artifactId>
+    <artifactId>Java-Fundamentals-1</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <build>
         <plugins>
             <plugin>
@@ -45,12 +46,7 @@
             <version>2.11.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.11.2</version>
-        </dependency>
-
     </dependencies>
 
+    
 </project>
