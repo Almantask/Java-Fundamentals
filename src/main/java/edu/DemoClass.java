@@ -21,11 +21,8 @@ public class DemoClass {
         Person2 tom2 = new Person2(1, 1);
         Person2 tom3 = new Person2("James", 1, 1, LocalDate.now());
 
-        // James ++++++
-        // Tom   ++++++++
-        System.out.println("tom1 = " + Person2.Name);
-        // James ++++++
-        // Tom   ++++++++
+        tom2.Name = "Tom";
         System.out.println("tom2 = " + tom2.Name);
+        tom2.Name = "Agnes";
     }
 }

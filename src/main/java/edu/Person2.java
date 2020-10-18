@@ -20,7 +20,7 @@ public class Person2 {
 
     // Already existing person
     public Person2(String name, float weight, float height, LocalDate birthday){
-        Name = name;
+        Person2.Name = name;
         Weight = weight;
         Height = height;
         Birthday = birthday;
