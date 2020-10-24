@@ -6,7 +6,7 @@ package edu.Part2;
 // Human has a name
 public class Human {
     private final String name;
-    private Point position;
+    private Point currentPoint;
 
     private Head head;
     private Hand handLeft;
@@ -28,7 +28,7 @@ public class Human {
         this.handRight = handRight;
         this.legLeft = legLeft;
         this.legRight = legRight;
-        this.position = position;
+        this.currentPoint = position;
 
         System.out.println("It's alive!");
     }
@@ -38,13 +38,13 @@ public class Human {
     }
 
     public void Walk(Point pointTo){
-        double distance = position.distanceTo(pointTo);
+        double distance = currentPoint.distanceTo(pointTo);
         simulateWalking(distance);
 
         handLeft.swing();
         handRight.swing();
 
-        position = pointTo;
+        currentPoint = pointTo;
     }
 
     public void Grab(Object target){
