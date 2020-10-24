@@ -1,4 +1,4 @@
-package kahoot;
+package kahoot.One;
 
 public class Referencs {
     public static void main(String[] args) {

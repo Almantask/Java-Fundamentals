@@ -1,4 +1,4 @@
-package edu;
+package edu.Part1;
 
 public class ControlStatements {
     public static void demo(){

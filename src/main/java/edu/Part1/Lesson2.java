@@ -1,6 +1,4 @@
-package edu;
-
-import java.math.BigDecimal;
+package edu.Part1;
 
 public class Lesson2 {
 

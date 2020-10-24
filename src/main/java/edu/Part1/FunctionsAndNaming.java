@@ -1,6 +1,4 @@
-package edu;
-
-import java.util.Scanner;
+package edu.Part1;
 
 public class FunctionsAndNaming {
 

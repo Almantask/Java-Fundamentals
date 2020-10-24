@@ -1,4 +1,4 @@
-package edu;
+package edu.Part1;
 
 import java.util.Arrays;
 import java.util.Objects;
