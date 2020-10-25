@@ -1,6 +1,6 @@
 package edu.Part1;
 
-public class ControlStatements {
+class ControlStatements {
     public static void demo(){
         demoForeach();
         demoWhile();

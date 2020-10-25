@@ -4,6 +4,7 @@ public class Hand {
     private Object holding;
 
     public void swing() {
+        Card card = new Card();
     }
 
     public void setHolding(Object target) {
