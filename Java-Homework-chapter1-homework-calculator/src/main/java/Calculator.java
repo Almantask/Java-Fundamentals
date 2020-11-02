@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class Calculator {
 
     public int calculate(String s) {
-        // comment for new commit.
+        // comment for new commit...
 
         ArrayList<String> factorials = new ArrayList<String>();
         ArrayList<String> finalString = new ArrayList<String>();
